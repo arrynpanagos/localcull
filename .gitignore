@@ -1,0 +1,28 @@
+# Ignore everything by default
+*
+
+# Whitelist repo structure
+!src/
+!src/**
+!docs/
+!docs/**
+!tests/
+!tests/**
+!scripts/
+!scripts/**
+!benchmarks/
+!benchmarks/**
+!README.md
+!LICENSE.txt
+!pyproject.toml
+!localcull_grouper.lua
+!.gitignore
+
+# Still ignore compiled/cache files even inside whitelisted dirs
+__pycache__/
+*.pyc
+*.egg-info/
+*.pkl
+*.npy
+*.npz
+.DS_Store
